@@ -14,3 +14,11 @@ cd project1
 npm run watch
 npm run app
 ```
+### Current behavior:
+```
+Uncaught (in promise) TypeError: Cannot read property 'default' of undefined
+    at eval (loadLoader.js:6)
+
+./src/main.js↵Module build failed (from ./node_modules/babel-loader/lib/index.js)
+  Error: Cannot find module 'D:\WebpackTest\project2\node_modules\babel-loader\lib\index.js'
+```
