@@ -1,9 +1,10 @@
 # webpack-api-node-issue
 
-This repository display bug of loader after build external project with webpack-api.
+This repository displayes a loader bug after building an external project with webpack-api.
 
 Install project:
-```
+
+```bash
 git clone f webpack-api-node-issue
 cd webpack-api-node-issue
 
@@ -13,13 +14,17 @@ cd ..
 cd project2
 npm install
 ```
-Build and run app for building (you must be in the main directory of repository):
-```
+
+Build and run the app for building (you must be in the main directory of the repository):
+
+```bash
 cd project1
 npm run watch
 npm run app
 ```
+
 ### Current behavior:
+
 ```
 Uncaught (in promise) TypeError: Cannot read property 'default' of undefined
     at eval (loadLoader.js:6)
