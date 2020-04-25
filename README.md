@@ -6,6 +6,11 @@ Install project:
 ```
 git clone f webpack-api-node-issue
 cd webpack-api-node-issue
+
+сd project1
+npm install
+cd ..
+cd project2
 npm install
 ```
 Build and run app for building (you must be in the main directory of repository):
